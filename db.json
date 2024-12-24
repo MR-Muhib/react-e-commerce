@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "price": 59.99,
+      "category": "Electronics",
+      "stock": 150,
+      "description": "High-quality wireless headphones with noise cancellation.",
+      "link": "https://example.com/wireless-headphones"
+    },
+    {
+      "id": 2,
+      "name": "Gaming Mouse",
+      "price": 29.99,
+      "category": "Accessories",
+      "stock": 200,
+      "description": "Ergonomic gaming mouse with customizable buttons and RGB lighting.",
+      "link": "https://example.com/gaming-mouse"
+    },
+    {
+      "id": 3,
+      "name": "Smartphone",
+      "price": 699.99,
+      "category": "Electronics",
+      "stock": 50,
+      "description": "Latest smartphone with a stunning display and advanced camera features.",
+      "link": "https://example.com/smartphone"
+    },
+    {
+      "id": 4,
+      "name": "Desk Lamp",
+      "price": 19.99,
+      "category": "Home Office",
+      "stock": 100,
+      "description": "Adjustable desk lamp with energy-efficient LED lighting.",
+      "link": "https://example.com/desk-lamp"
+    },
+    {
+      "id": 5,
+      "name": "Bluetooth Speaker",
+      "price": 49.99,
+      "category": "Electronics",
+      "stock": 75,
+      "description": "Portable Bluetooth speaker with excellent sound quality.",
+      "link": "https://example.com/bluetooth-speaker"
+    },
+    {
+      "id": 6,
+      "name": "Leather Wallet",
+      "price": 25.99,
+      "category": "Accessories",
+      "stock": 180,
+      "description": "Durable leather wallet with multiple compartments.",
+      "link": "https://example.com/leather-wallet"
+    },
+    {
+      "id": 7,
+      "name": "Running Shoes",
+      "price": 89.99,
+      "category": "Footwear",
+      "stock": 120,
+      "description": "Lightweight running shoes designed for comfort and performance.",
+      "link": "https://example.com/running-shoes"
+    },
+    {
+      "id": 8,
+      "name": "Wrist Watch",
+      "price": 149.99,
+      "category": "Accessories",
+      "stock": 60,
+      "description": "Elegant wristwatch with a classic design and durable build.",
+      "link": "https://example.com/wrist-watch"
+    },
+    {
+      "id": 9,
+      "name": "Office Chair",
+      "price": 129.99,
+      "category": "Furniture",
+      "stock": 30,
+      "description": "Ergonomic office chair with adjustable height and lumbar support.",
+      "link": "https://example.com/office-chair"
+    },
+    {
+      "id": 10,
+      "name": "Fitness Tracker",
+      "price": 99.99,
+      "category": "Electronics",
+      "stock": 95,
+      "description": "Advanced fitness tracker with heart rate monitor and activity tracking.",
+      "link": "https://example.com/fitness-tracker"
+    }
+  ]
+}
