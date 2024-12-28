@@ -27,7 +27,7 @@ export default function HomeProducts() {
       <h2 className="text-2xl font-bold text-gray-800 text-center mb-3">
         Our Products
       </h2>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-5 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 px-4">
         {products.map((product) => (
           <ProductView key={product.id} product={product} />
         ))}

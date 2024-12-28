@@ -8,7 +8,7 @@ import Blogs from "./helper/getBlog";
 
 export default function BlogsDesign() {
   return (
-    <div className="w-[60%] py-5 ">
+    <div className=" p-5 ">
       <Blogs
         title="Going all-in with millennial design"
         image={imageOne}

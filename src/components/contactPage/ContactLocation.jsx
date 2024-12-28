@@ -24,7 +24,7 @@ const contactInfo = [
 
 export default function ContactLocation() {
   return (
-    <div className="w-[40%]">
+    <div className="">
       {contactInfo.map((info) => (
         <div key={info.title} className="flex gap-2 mb-8">
           {info.icon}

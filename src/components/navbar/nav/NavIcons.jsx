@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const NavIcons = () => {
   return (
-    <div className="flex items-center gap-3">
+    <div className="flex items-center gap-3 ">
       <Link href="/login">
         <button className="p-2">
           <CiUser className="text-xl" />

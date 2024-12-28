@@ -1,15 +1,25 @@
-import Logo from "./Logo";
-import NavIcons from "./NavIcons";
-import NavLinks from "./NavLinks";
+import { useState } from "react";
+import Logo from "./nav/Logo";
+import NavIcons from "./nav/NavIcons";
+import NavLinks from "./nav/NavLinks";
+import NavToggle from "./nav/NavToggle";
 
 const Navbar = () => {
   return (
-    <div className="container mx-auto flex w-full sticky top-0 z-20 bg-white shadow-sm justify-between px-5">
+    <div className="container mx-auto flex w-full    bg-white shadow-sm justify-between px-5">
       <Logo />
 
-      <NavLinks />
+      <div className="hidden sm:block">
+        <NavLinks />
+      </div>
 
-      <NavIcons />
+      <div className="hidden sm:block mt-1">
+        <NavIcons />
+      </div>
+
+      <div className="block sm:hidden p-2 mt-1 ">
+        <NavToggle />
+      </div>
     </div>
   );
 };

@@ -7,7 +7,7 @@ import CopyRight from "./footer-component/CopyRight";
 export default function Footer() {
   return (
     <footer className="container my-5 bg-white  mx-auto">
-      <div className=" mx-auto grid grid-cols-1 md:grid-cols-5 gap-8 ">
+      <div className=" mx-auto pl-5 grid grid-cols-1 md:grid-cols-5 gap-8 ">
         {/* Branding Section */}
         <Branding />
 

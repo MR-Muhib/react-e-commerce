@@ -1,3 +1,4 @@
+import IntroduceApplication from "../components/applicationInfo/IntroduceApplication";
 import ContactBanner from "../components/contactPage/ContactBanner";
 import ContactForm from "../components/contactPage/ContactForm";
 import ContactHeader from "../components/contactPage/ContactHeader";
@@ -9,10 +10,13 @@ const Contact = () => {
       <ContactBanner />
       <ContactHeader />
 
-      <div className="md:flex">
+      <div className="sm:flex justify-around mb-5 p-5">
         <ContactLocation />
         <ContactForm />
       </div>
+
+      {/* product quality and over view  */}
+      <IntroduceApplication />
     </div>
   );
 };

@@ -32,7 +32,7 @@ const category = [
 
 export default function BlogsPost() {
   return (
-    <div className="w-[30%] h-auto p-5 ">
+    <div className="p-5 ">
       {/* Search field */}
       <SearchPost />
 

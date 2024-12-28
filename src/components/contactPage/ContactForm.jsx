@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ContactForm() {
   return (
-    <form className="w-[60%]">
+    <form className="">
       <div className="">
         <label className="font-semibold text-xm" htmlFor="name">
           Your name
