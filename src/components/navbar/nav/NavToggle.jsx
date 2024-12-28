@@ -2,7 +2,7 @@ import { useState } from "react";
 
 // Import react icons
 import { LuAlignJustify } from "react-icons/lu";
-import NavLinks from "./NavLinks";
+import NavLinks from "../NavLinks";
 import NavIcons from "./NavIcons";
 
 const NavToggle = () => {
